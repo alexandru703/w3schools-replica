@@ -5,8 +5,8 @@
 ☐ Identify repetable areas and 
   ✔ create a template for the layout @done (1/14/2019, 9:28:30 PM)
   ✔ extract header, footer and nav into components @done (1/14/2019, 9:37:54 PM)
-☐ Use JavaScript variables to pass data through pug files
-☐ Refractor header using "each" loop
+✔ Use JavaScript variables to pass data through pug files @done (1/14/2019, 10:59:42 PM)
+✔ Refractor header using "each" loop @done (1/14/2019, 10:59:44 PM)
 ☐ Refractor nav using "each" loop
 ☐ Create multiple pages
   ☐ home
