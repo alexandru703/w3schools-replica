@@ -1,0 +1,22 @@
+# Agenda
+
+✔ See our website online @done (1/14/2019, 9:20:09 PM)
+  ✔ use "npm run deploy" which you can find in the readme file of pug starter @done (1/14/2019, 9:20:10 PM)
+☐ Identify repetable areas and 
+  ✔ create a template for the layout @done (1/14/2019, 9:28:30 PM)
+  ✔ extract header, footer and nav into components @done (1/14/2019, 9:37:54 PM)
+☐ Use JavaScript variables to pass data through pug files
+☐ Refractor header using "each" loop
+☐ Refractor nav using "each" loop
+☐ Create multiple pages
+  ☐ home
+    ☐ html
+      ☐ elements
+      ☐ attributes
+      ☐ headings
+    ☐ css
+      ☐ colors
+      ☐ backgrounds
+      ☐ borders
+    ☐ JavaScript
+      ☐ 
