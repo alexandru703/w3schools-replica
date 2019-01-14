@@ -2,17 +2,17 @@ extends ../_component/layout/template
 
 block cool-config
   -
-    var myTitle = 'Learn to code HTML, CSS and JavaScript';
-    var myDescription = 'This is a HTML replica of w3schools';
-    var landingPage = '';
+    var myTitle = 'Learn to code HTML for beginners';
+    var myDescription = 'HTML is easy and fun to learn!';
+    var landingPage = 'HTML';
     var activeLink = '';
 
 block awesome-content
-      h1 This is a replica of w3schools.com
-      p I'll go through all possible HTML elements as well as CSS to gain knowledge quicker and get used to writing and producing styled HTML pages.
-      h2 HTML
-      p The language of building web pages. #[a(href="/html") See awesomeness happening!]
-      h2 CSS
-      p The language of styling web pages. #[a(href="/css") The choice is just yours!]
-      h2 JavaScript
-      p The language of programming web pages. #[a(href="/javascript") Discover the way up!]
+  h1=myTitle
+  p=myDescription
+  h2 HTML Elements
+  p An HTML element usually consists of start tag and end tag, with the content inserted in between.
+  h2 HTML Attributes
+  p Attributes provide additional information about HTML elements.
+  h2 HTML Headings
+  p Headings are important in HTML documents.
