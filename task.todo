@@ -7,7 +7,7 @@
   ✔ extract header, footer and nav into components @done (1/14/2019, 9:37:54 PM)
 ✔ Use JavaScript variables to pass data through pug files @done (1/14/2019, 10:59:42 PM)
 ✔ Refractor header using "each" loop @done (1/14/2019, 10:59:44 PM)
-☐ Refractor nav using "each" loop
+✔ Refractor nav using "each" loop @done (1/15/2019, 8:58:56 PM)
 ☐ Create multiple pages
   ☐ home
     ☐ html
@@ -19,4 +19,4 @@
       ☐ backgrounds
       ☐ borders
     ☐ JavaScript
-      ☐ 
+      ☐ 33:57 min
