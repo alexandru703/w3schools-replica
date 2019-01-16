@@ -2,21 +2,20 @@ extends ../../_component/layout/template
 
 block cool-config
   -
-    var myTitle = 'Learn to code CSS for beginners';
-    var myDescription = 'CSS is easy and fun to learn!';
+    var myTitle = 'Learn to code CSS backgrounds for beginners';
+    var myDescription = 'Backgrounds in CSS are amazing and easy to learn!';
     var landingPage = 'CSS';
-    var activeLink = '';
+    var activeLink = '/css/backgrounds';
 
 block awesome-content
-  h1=myTitle
-  p=myDescription
-  h2 CSS Colors
-  p COlors in CSS are most often specified by:
-  ul
-    li a valid color name
-    li an RGB value
-    li a HEX value
-  h2 CSS Backgrounds
-  p The CSS background properties are used to define the background effect for elements.
-  h2 CSS Borders
-  p The CSS border properties allow you to specify the style, width and color of an element
+  h1=title
+  p=description
+  h2 Example
+  h3 Backgrounds
+  p CSS background properties:
+  ol.listStyle
+    li background-color
+    li background-image
+    li background-repeat
+    li background-attachment
+    li background-position

@@ -2,21 +2,18 @@ extends ../../_component/layout/template
 
 block cool-config
   -
-    var myTitle = 'Learn to code CSS for beginners';
-    var myDescription = 'CSS is easy and fun to learn!';
+    var myTitle = 'Learn to code CSS borders for beginners';
+    var myDescription = 'CSS borders are easy and fun to learn!';
     var landingPage = 'CSS';
-    var activeLink = '';
+    var activeLink = 'css/borders';
 
 block awesome-content
-  h1=myTitle
-  p=myDescription
-  h2 CSS Colors
-  p COlors in CSS are most often specified by:
-  ul
-    li a valid color name
-    li an RGB value
-    li a HEX value
-  h2 CSS Backgrounds
-  p The CSS background properties are used to define the background effect for elements.
-  h2 CSS Borders
-  p The CSS border properties allow you to specify the style, width and color of an element
+  h1=title
+  p=description
+  h2 Border Style
+  p The border-style property specifies what kind of border to display. The following values are allowed:
+  ul.listStyle
+   li dotted - Defines a dotted border
+   li dashed - Defines a dashed border
+   li solid - Defines a solid border
+   li double - Defines a double border
